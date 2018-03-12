@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/joommf/oommf-extension-dmi-d2d.svg?branch=master)](https://travis-ci.org/joommf/oommf-extension-dmi-d2d)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1196451.svg)](https://doi.org/10.5281/zenodo.1196451)
 
 # [OOMMF](https://math.nist.gov/oommf/) extension: Dzyaloshinskii-Moriya interaction (DMI) for the crystallographic class D<sub>2d</sub>
 
@@ -45,6 +46,8 @@ If you require support on installation or usage of this OOMMF extension as well 
 ## How to cite
 
 If you use this OOMMF extension in your research, please cite it as:
+
+David Cortés-Ortuño, Marijan Beg, Vanessa Nehruji, Ryan A. Pepper, & Hans Fangohr. OOMMF extension: Dzyaloshinskii-Moriya interaction (DMI) for the crystallographic class D2d (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.1196451 (12 March 2018).
 
 ## License
 
