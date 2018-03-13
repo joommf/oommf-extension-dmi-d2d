@@ -12,7 +12,12 @@ David Cortés-Ortuño<sup>1</sup>, Marijan Beg<sup>1,2</sup>, Vanessa Nehruji<su
 
 ## Introduction
 
-Different Dzyaloshinskii-Moriya interaction forms can be written as different combinations of Lifshitz invariants depending on the crystallographic class of the magnetic material [1].
+Different Dzyaloshinskii-Moriya interaction forms can be written as different combinations of Lifshitz invariants depending on the crystallographic class of the magnetic material [1]. Some magnetic systems have D<sub>2d</sub> DMI form which results in antiskyrmion.
+
+For the OOMMF extensions for other crystallographic classes, please refer to:
+
+1. C<sub>nv</sub> - interfacial DMI ([repository](https://github.com/joommf/oommf-extension-dmi-cnv))
+2. T(O) - bulk DMI ([repository](https://github.com/joommf/oommf-extension-dmi-t))
 
 ## Energy density
 
@@ -47,7 +52,9 @@ If you require support on installation or usage of this OOMMF extension as well 
 
 If you use this OOMMF extension in your research, please cite it as:
 
-David Cortés-Ortuño, Marijan Beg, Vanessa Nehruji, Ryan A. Pepper, & Hans Fangohr. OOMMF extension: Dzyaloshinskii-Moriya interaction (DMI) for the crystallographic class D2d (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.1196451 (12 March 2018).
+1. David Cortés-Ortuño et al. paper in preparation
+
+2. David Cortés-Ortuño, Marijan Beg, Vanessa Nehruji, Ryan A. Pepper, & Hans Fangohr. OOMMF extension: Dzyaloshinskii-Moriya interaction (DMI) for the crystallographic class D2d (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.1196451 (12 March 2018).
 
 ## License
 
