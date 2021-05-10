@@ -33,8 +33,12 @@ jobs:
       run: |
         pwd
         ls -la
-        export OOMMFTCL="$( pwd )/oommf/oommf.tcl"
+        ls -la oommf
+        export OOMMFTCL="$(pwd$)/oommf/oommf.tcl"
         echo $OOMMFTCL
         cd main
+
+        ls -la ../oommf
+        tclsh $(OOMMFTCL) +platform
         make test-all
 
