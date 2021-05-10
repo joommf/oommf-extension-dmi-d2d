@@ -1,0 +1,25 @@
+name: workflow
+on: [push]
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Initialisation
+      uses: actions/checkout@v2
+      with:
+        path: main
+
+    - name: Clone OOMMF
+      uses: actions/checkout@v2
+      with:
+        repository: fangohr/oommf
+        path: oommf
+
+    - name: Copy OOMMF extensions
+      run: cp main/src/* oommf/oommf/app/oxs/local/
+
+    - name: compile OOMMF
+      run: |
+        cd oommf
+        make
