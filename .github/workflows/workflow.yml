@@ -27,8 +27,10 @@ jobs:
         cd oommf
         make
         export OOMMFTCL="$(pwd)/oommf/oommf/oommf.tcl"
-        cd main
+        cd ..
 
     - name: run tests
-      run: make test-all
+      run: |
+        cd main
+        make test-all
 
