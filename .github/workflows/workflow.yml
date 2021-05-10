@@ -34,7 +34,7 @@ jobs:
         pwd
         ls -la
         ls -la oommf
-        export OOMMFTCL="$(pwd)/oommf/oommf.tcl"
+        export OOMMFTCL="$(pwd)/oommf/oommf/oommf.tcl"
         echo $OOMMFTCL
         cd main
 
