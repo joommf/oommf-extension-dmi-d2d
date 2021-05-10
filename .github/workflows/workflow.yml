@@ -24,12 +24,16 @@ jobs:
 
     - name: compile OOMMF
       run: |
+        pwd
+        ls -la
         cd oommf
         make
 
     - name: run tests
       run: |
-        export OOMMFTCL=oommf.tcl
-        cd ../main
+        pwd
+        ls -la
+        export OOMMFTCL=oommf/oommf.tcl
+        cd main
         make test-all
 
