@@ -10,6 +10,9 @@ jobs:
       with:
         path: main
 
+    - name: install Tcl
+      run: sudo apt-get install tk-dev tcl-dev
+
     - name: Clone OOMMF
       uses: actions/checkout@v2
       with:
