@@ -54,7 +54,7 @@ If you require support on installation or usage of this OOMMF extension as well 
 
 If you use this OOMMF extension in your research, please cite it as:
 
-1. David Cortés-Ortuño et al. paper in preparation
+1. David Cortés-Ortuño et al. Proposal for a micromagnetic standard problem for materials with Dzyaloshinskii–Moriya interaction. [New J. Phys. **20** 113015 (2018)](https://doi.org/10.1088/1367-2630/aaea1c)
 
 2. David Cortés-Ortuño, Marijan Beg, Vanessa Nehruji, Ryan A. Pepper, & Hans Fangohr. OOMMF extension: Dzyaloshinskii-Moriya interaction (DMI) for the crystallographic class D2d (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.1196451 (12 March 2018).
 
