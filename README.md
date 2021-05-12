@@ -36,7 +36,7 @@ This OOMMF extension works both with and without periodic boundary conditions (P
 ## Installation
 
 To install this extension:
-1. Copy `DMI_D2d.cc` and `DMI_D2d.h` files from the `src` directory in this repository into the `app/oxs/local` directory in the OOMMF main directory.
+1. Copy `DMI_D2d_[xyz].cc` and `DMI_D2d_[xyz].h` files from the `src` directory in this repository into the `app/oxs/local` directory in the OOMMF main directory.
 2. Recompile OOMMF, usually by running
 ```
 tclsh oommf.tcl pimake distclean && tclsh oommf.tcl pimake upgrade && tclsh oommf.tcl pimake
@@ -44,7 +44,7 @@ tclsh oommf.tcl pimake distclean && tclsh oommf.tcl pimake upgrade && tclsh oomm
 
 ## Examples
 
-Examples are provided in `.mif` files for the stabilisation of an isolated skyrmion in a confined cuboid (no periodic boundary conditions) and for the stabilisation of a skyrmion lattice in a unit cell of an infinite system (with periodic boundary conditions).
+Examples are provided in `.mif` files for the stabilisation of an isolated skyrmion in a confined cuboid (no periodic boundary conditions) and for the stabilisation of a skyrmion lattice in a unit cell of an infinite system (with periodic boundary conditions). Examples are provided for all three terms with the geometry adjusted suitably.
 
 ## Support
 
