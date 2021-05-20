@@ -1,8 +1,8 @@
-/* FILE: DMI_D2d.cc            -*-Mode: c++-*-
+/* FILE: DMI_D2d_z.cc            -*-Mode: c++-*-
  *
  * Dzyaloshinskii-Moriya energy for the D2d crystallographic class [1]:
  *
- * $w_\text{dmi} = D ( L_{xz}^{(y)} + L_{yz}^{(x)} )
+ * $w_\text{dmi} = D ( L_{yz}^{(x)} + L_{xz}^{(y)} )
  *
  * This extension works both with and without periodic boundary conditions.
  *
