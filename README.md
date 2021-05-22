@@ -43,10 +43,7 @@ We give examples in `.mif` files for the relaxation resulting in an isolated sky
 
 ## Other crystallographic classes
 
-DMI extensions for other crystallographic classes, are available in:
-
-1. [C<sub><i>nv</i></sub>](https://github.com/joommf/oommf-extension-dmi-cnv)
-2. [T(O)](https://github.com/joommf/oommf-extension-dmi-t)
+DMI extensions for other crystallographic classes are [C<sub><i>nv</i></sub>](https://github.com/joommf/oommf-extension-dmi-cnv) and [T(O)](https://github.com/joommf/oommf-extension-dmi-t).
 
 ## Support
 
