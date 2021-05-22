@@ -34,7 +34,7 @@ This OOMMF extension supports periodic boundary conditions. It works with both `
 1. Copy `DMI_D2d_[xyz].cc` and `DMI_D2d_[xyz].h` files from the `src` directory in this repository into the `app/oxs/local` OOMMF directory.
 2. Recompile OOMMF, usually by running
 ```
-tclsh oommf.tcl pimake distclean && tclsh oommf.tcl pimake upgrade && tclsh oommf.tcl pimake
+$ tclsh oommf.tcl pimake distclean && tclsh oommf.tcl pimake upgrade && tclsh oommf.tcl pimake
 ```
 
 ## Examples
