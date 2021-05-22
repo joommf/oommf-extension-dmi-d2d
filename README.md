@@ -27,7 +27,7 @@ where <a href="https://www.codecogs.com/eqnedit.php?latex=D&space;[\text{J}/\tex
 
 ## Periodic boundary conditions
 
-This OOMMF extension supports periodic boundary conditions. It can be used botn on `Oxs_RectangularMesh` and `Oxs_PeriodicRectangularMesh`.
+This OOMMF extension supports periodic boundary conditions. It works with both `Oxs_RectangularMesh` and `Oxs_PeriodicRectangularMesh`.
 
 ## Installation
 
@@ -39,7 +39,7 @@ tclsh oommf.tcl pimake distclean && tclsh oommf.tcl pimake upgrade && tclsh oomm
 
 ## Examples
 
-Examples are provided in `.mif` files for the relaxation resulting in an isolated skyrmion state in a confined cuboid (with no periodic boundary conditions) and for the relaxation resulting in a skyrmion lattice in a unit cell of an infinite system (with periodic boundary conditions). Examples are provided for all three terms with the geometry adjusted suitably.
+We give examples in `.mif` files for the relaxation resulting in an isolated skyrmion state in a confined cuboid (with no periodic boundary conditions) and relaxation resulting in a skyrmion lattice in a unit cell of an infinite system (with periodic boundary conditions). Examples demonstrate the use of all three terms (with appropriately adjusted geometry).
 
 ## Other crystallographic classes
 
@@ -50,11 +50,11 @@ DMI extensions for other crystallographic classes, are available in:
 
 ## Support
 
-If you require support, have questions, want to report a bug, or want to suggest an improvement, please raise an issue in [ubermag/help](https://github.com/ubermag/help) repository.
+If you require support, have questions, want to report a bug or suggest an improvement, please raise an issue in [ubermag/help](https://github.com/ubermag/help) repository.
 
 ## Contributions
 
-All contributions are welcome, however small they are. If you would like to contribute, please fork the repository and create a pull request. If you are not sure how to contribute, please contact us by raising an issue in [ubermag/help](https://github.com/ubermag/help) repository, and we are going to help you get started and assist you on the way.
+All contributions are welcome, however small they are. If you would like to contribute, please fork the repository and create a pull request. If you are unsure how to contribute, please contact us by raising an issue in [ubermag/help](https://github.com/ubermag/help) repository, and we will help you get started and assist you on the way.
 
 ## How to cite
 
