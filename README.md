@@ -13,7 +13,7 @@ David Cortés-Ortuño<sup>1,2</sup>, Marijan Beg<sup>1,3</sup>, Martin Lang<sup>
 | --- | --- |
 | Tests | [![workflow](https://github.com/joommf/oommf-extension-dmi-d2d/actions/workflows/workflow.yml/badge.svg)](https://github.com/joommf/oommf-extension-dmi-d2d/actions/workflows/workflow.yml) |
 | License | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) |
-| DOI | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1196451.svg)](https://doi.org/10.5281/zenodo.1196451) |
+| DOI | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1196450.svg)](https://doi.org/10.5281/zenodo.1196450) |
 
 ## About
 
