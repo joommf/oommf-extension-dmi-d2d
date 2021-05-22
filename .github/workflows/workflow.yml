@@ -1,14 +1,20 @@
 name: workflow
-on: [push]
+
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * 1'  # run every Monday
+
 jobs:
   workflow:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
 
     steps:
     - name: Initialisation
       uses: actions/checkout@v2
-      with:
-        path: main
 
     - name: install Tcl
       run: sudo apt-get install tk-dev tcl-dev
@@ -19,7 +25,7 @@ jobs:
         repository: fangohr/oommf
         path: oommf
 
-    - name: Copy OOMMF extensions
+    - name: Copy extensions
       run: cp main/src/* oommf/oommf/app/oxs/local/
 
     - name: compile OOMMF
