@@ -11,6 +11,8 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
+    env:
+      OOMMFTCL: $GITHUB_WORKSPACE/oomf/oommf/oommf.tcl
 
     steps:
     - name: Initialisation
@@ -38,6 +40,5 @@ jobs:
 
     - name: run tests
       run: |
-        export OOMMFTCL="$(pwd)/oommf/oommf/oommf.tcl"
         cd main
         make test-all
